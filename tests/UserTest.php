@@ -8,7 +8,9 @@ class UserTest extends TestCase
         $user = new User('rishi', 'hardia');
         $this->assertEquals('rishi hardia', $user->getFullName());
     }
-
+    /**
+     * This is Notification Unit Test
+     */
     public function testNotificationIsSent()
     {
         $user = new User;
@@ -16,7 +18,6 @@ class UserTest extends TestCase
         $mockMailer->method('sendMail')
             ->willReturn(true);
         $user->setMailer($mockMailer);
-
         $user->email = 'rishi.h@mailinator.com';
         $this->assertTrue($user->notify('This is test msg'));
     }
