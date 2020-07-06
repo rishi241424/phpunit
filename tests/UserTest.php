@@ -10,6 +10,7 @@ class UserTest extends TestCase
     }
     /**
      * This is Notification Unit Test
+     * I like filcrum's policies and working culure so far
      */
     public function testNotificationIsSent()
     {
