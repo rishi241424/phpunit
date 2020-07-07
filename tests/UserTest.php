@@ -14,6 +14,7 @@ class UserTest extends TestCase
      * Adding Feature 3 Branch code
      * I like filcrum's policies and working culure so far
      * adding feature01 branch comment
+     * Change made in Feature02 Branch
      */
     public function testNotificationIsSent()
     {
