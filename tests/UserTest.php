@@ -12,6 +12,8 @@ class UserTest extends TestCase
      * This is Notification Unit Test
      * adding comment 3
      * Adding Feature 3 Branch code
+     * I like filcrum's policies and working culure so far
+     * adding feature01 branch comment
      */
     public function testNotificationIsSent()
     {
